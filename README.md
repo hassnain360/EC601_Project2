@@ -26,7 +26,13 @@ Design decisions in this application development include the following. We use p
 
 ### Tweepy
 
-To use the tweepy library to download tweets for a given search string, you will need to have a Twitter developer account and obtain the necessary API keys and access tokens. You will also need to install the tweepy library using pip or your preferred method.
+After reading the documentation, I found the follwoing information. 
+To use the tweepy library to download tweets for a given search string, we need to have a Twitter developer account and obtain the necessary API keys and access tokens. Using pip, we also need to install the tweepy library using pip or any other method.
 
-Once you have all of these requirements satisfied, you can use the following code to download tweets for a given search string using tweepy:
+The images below show twitter developer account generation, and generation and retreival of keys required to use twitter API with tweepy. 
 
+![](1.jpg) 
+
+![](2.jpg) 
+
+This code will search for tweets containing the specified search string and print the full text of each tweet to the console. You can modify the tweet_count variable to control the number of tweets that are downloaded, and you can also add additional code to process the tweets or save them to a file or database.h
