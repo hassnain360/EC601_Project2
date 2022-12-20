@@ -10,7 +10,7 @@ We start by defining the problem statement, then the user stories, then the Mini
 
 ### Tweepy
 
-After reading the documentation, I found the follwoing information. 
+After reading the documentation, I found the following information. 
 To use the tweepy library to download tweets for a given search string, we need to have a Twitter developer account and obtain the necessary API keys and access tokens. Using pip, we also need to install the tweepy library using pip or any other method.
 
 The images below show twitter developer account generation, and generation and retreival of keys required to use twitter API with tweepy. 
@@ -54,7 +54,6 @@ We decide to take the following approach in designing such application. We first
 ### Design Decisions
 
 Design decisions in this application development include the following. We use python as the main development language since after API exploration we found out that python has the most APIs available for it. Integration and interfacing with Python langauge is the easiest and fastest as compared to other languages. These tools have already been written for Python. Another design decision that we are using is testing Google NLP package, for sentiment analysis. Though we could just download text and perform sentiment analysis on that, using Google's cloud has multiple benefits. One is that local NLP processing system, if sophisticated enough, would take processing power and time to perform. Given google cloud, we won't have to waste our storage and power on processing tweets. 
-
 
 
 
