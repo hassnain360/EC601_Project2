@@ -22,7 +22,7 @@ The images below show twitter developer account generation, and generation and r
 
 To search for tweets that were created within a specific time frame, similar to the other two programs, we can set up the necessary authentication and authorization to access the Twitter API and use the GET search/tweets endpoint to search for tweets that were created within a specific time frame. We need to specify the desired time frame using the since and until parameters in the endpoint.
 
-Results: I was successfully able to searche for tweets that contain the specified words, hashtag, in specified time, if required, and print the text of each tweet to the console. We can modify variables to control the number of tweets that are downloaded, and you can also add additional code to process the tweets or save them to a file or database.
+***Results: I was successfully able to searche for tweets that contain the specified words, hashtag, in specified time, if required, and print the text of each tweet to the console. We can modify variables to control the number of tweets that are downloaded, and you can also add additional code to process the tweets or save them to a file or database.***
 
 
 ## Phase 1a: Sentiment Analysis using GoogleNLP
@@ -30,7 +30,7 @@ Results: I was successfully able to searche for tweets that contain the specifie
 To perform sentiment analysis, we use Google NLP.
 We set up a Google Cloud account and enable the Natural Language API by visiting the Google Cloud Console (https://console.cloud.google.com/). I then import the necessary modules and authenticate my API key. I perform the required enviroment variable adjustments and use my given program to test the API to see if it gives positive or negative result for a given text.
 
-**Results**: We obtain a sentiment score using Google NLP. The sentiment score is a value between -1 and 1, with -1 indicating very negative sentiment and 1 indicating very positive sentiment. The magnitude is a value indicating the strength of the sentiment, with higher values indicating stronger sentiment.
+***Results: We obtain a sentiment score using Google NLP. The sentiment score is a value between -1 and 1, with -1 indicating very negative sentiment and 1 indicating very positive sentiment. The magnitude is a value indicating the strength of the sentiment, with higher values indicating stronger sentiment.***
 
 
 ## Phase 2: MVP Creation of a Social Media Analyzer
