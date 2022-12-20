@@ -30,7 +30,9 @@ To search for tweets that were created within a specific time frame, similar to 
 To perform sentiment analysis, we use Google NLP.
 We set up a Google Cloud account and enable the Natural Language API by visiting the Google Cloud Console (https://console.cloud.google.com/). I then import the necessary modules and authenticate my API key. I perform the required enviroment variable adjustments and use my given program to test the API to see if it gives positive or negative result for a given text.
 
-***Results: We obtain a sentiment score using Google NLP. The sentiment score is a value between -1 and 1, with -1 indicating very negative sentiment and 1 indicating very positive sentiment. The magnitude is a value indicating the strength of the sentiment, with higher values indicating stronger sentiment.***
+To help the MVP creation later on, and to perform further tests on GoogleNLP, I also wrote a test program that performs the same analysis on an article written on someone on the web.
+
+***Results: We obtain a sentiment score for raw text or a webpage using Google NLP. The sentiment score is a value between -1 and 1, with -1 indicating very negative sentiment and 1 indicating very positive sentiment. The magnitude is a value indicating the strength of the sentiment, with higher values indicating stronger sentiment.***
 
 
 ## Phase 2: MVP Creation of a Social Media Analyzer
